@@ -28,5 +28,6 @@ public class AppTest {
         assertFalse(App.isPasswordComplex("p assword12"));
         assertFalse(App.isPasswordComplex("Sur18"));
         assertFalse(App.isPasswordComplex(""));
+        assertFalse(App.isPasswordComplex("aAtesttest"));
     }
 }
